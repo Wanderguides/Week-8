@@ -1,0 +1,161 @@
+<html>
+	<head>
+		<TITLE>WEEK 8</TITLE>
+		<link rel="stylesheet" type="text/css" href="css/Week8style.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	</head>
+
+	<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Ale/Sessions</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Beer <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Spirits</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Brewery Map <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Reviews</a></li>
+	            <li><a href="#">News</a></li>
+	            <li><a href="#">Lists</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Maps</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Photos</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	      <form class="navbar-form navbar-left" role="search">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button type="submit" class="btn btn-default">Submit</button>
+	      </form>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="jumbotron">
+  	<h1>Vancouver's Brewery Creek</h1>
+  	<p>Where all the best craft beer can be found</p>
+  	<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+	</div>
+
+	<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">
+                Complete Brewery List
+            </h1>
+            <h3 class="text-center">
+                Never miss out on craft beer again!
+            </h3>
+        </div>
+        <p>
+		  <button type="button" class="btn btn-primary btn-xs">Vancouver Breweries</button>
+		  <button type="button" class="btn btn-default btn-xs">BC Breweries</button>
+		</p>
+
+        <div id="no-more-tables">
+            <table class="col-md-12 table-bordered table-striped table-condensed cf">
+        		<thead class="cf">
+        			<tr>
+        				<th>Name</th>
+        				<th>Address</th>
+        				<th>Hours</th>
+        				<th>Growlers</th>
+        				<th>Lounge</th>
+        				<th>Food</th>
+        				<th class="numeric">Hours</th>
+        				<th>Rating</th>
+        			
+        			</tr>
+        		</thead>
+        		<tbody>
+        			<tr>
+        				<td data-title="Name">33 Acres</td>
+        				<td data-title="Address">bla blah blah</td>
+        				<td data-title="Hours" class="numeric">11am-10pm</td>
+        				<td data-title="Growlers" class="numeric">Y/N</td>
+        				<td data-title="Lounge" class="numeric">Y/N</td>
+        				<td data-title="Food" class="numeric">Y/N</td>
+        				<td data-title="Price" class="numeric">$</td>
+        				<td data-title="Rating" class="numeric">6/10</td>
+        				
+        			</tr>
+        			<tr>
+        				<td data-title="Name">Brassneck</td>
+        				<td data-title="Address">Bla blah blah</td>
+        				<td data-title="Hours" class="numeric">10am-11pm</td>
+        				<td data-title="Growlers" class="numeric">Y/N</td>
+        				<td data-title="Lounge" class="numeric">Y/N</td>
+        				<td data-title="Food" class="numeric">Y/N</td>
+        				<td data-title="Price" class="numeric">$$</td>
+        				<td data-title="Rating" class="numeric">8/10</td>
+        				
+        			</tr>
+        			<tr>
+        				<td data-title="Name">Big Rock</td>
+        				<td data-title="Address">blah blah blah</td>
+        				<td data-title="Hours" class="numeric">10am-12am</td>
+        				<td data-title="Growlers" class="numeric">Y/N</td>
+        				<td data-title="Lounge" class="numeric">Y/N</td>
+        				<td data-title="Food" class="numeric">Y/N</td>
+        				<td data-title="Price" class="numeric">$$</td>
+        				<td data-title="Rating" class="numeric">6/10</td>
+        				
+        			</tr>
+        			<tr>
+        				<td data-title="Name">Main Street</td>
+        				<td data-title="Address">Blah blah blah</td>
+        				<td data-title="Hours" class="numeric">12pm-1am</td>
+        				<td data-title="Growlers" class="numeric">Y/N</td>
+        				<td data-title="Lounge" class="numeric">Y/N</td>
+        				<td data-title="Food" class="numeric">Y/N</td>
+        				<td data-title="Price" class="numeric">$</td>
+        				<td data-title="Rating" class="numeric">7/10</td>
+        				
+        			</tr>
+        			<tr>
+        				<td data-title="Name">R+B Brewing</td>
+        				<td data-title="Address">blah blah blah</td>
+        				<td data-title="Hours" class="numeric">1pm-9pm</td>
+        				<td data-title="Growlers" class="numeric">Y/N</td>
+        				<td data-title="Lounge" class="numeric">Y/N</td>
+        				<td data-title="Food" class="numeric">Y/N</td>
+        				<td data-title="Price" class="numeric">$$</td>
+        				<td data-title="Rating" class="numeric">6/10</td>
+        				
+        			</tr>
+        			<tr>
+        				<td data-title="Name">Steel Toad</td>
+        				<td data-title="Address">blah blah blah</td>
+        				<td data-title="Hours" class="numeric">Y/N</td>
+        				<td data-title="Growlers" class="numeric">Y/N</td>
+        				<td data-title="Lounge" class="numeric">Y/N</td>
+        				<td data-title="Food" class="numeric">Y/N</td>
+        				<td data-title="Price" class="numeric">$$$</td>
+        				<td data-title="Rating" class="numeric">4/10</td>
+        			</tr>
+        		</tbody>
+        	</table>
+        </div>
+    </div>
+</div>
+<div class="alert alert-success" role="alert">You've successfully drank all the beer in Vancouver!</div>
+	</body>
+</html>
